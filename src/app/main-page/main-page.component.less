@@ -1,0 +1,133 @@
+.circle-heart {
+  height: 4em;
+  margin: 2em 0 .5em;
+
+  &--circle {
+    border-radius: 50%;
+    background: rgba(2, 1, 81, .9);
+    box-shadow: -1px -1px 3px rgba(2, 1, 81, 0.5);
+    width: 3em;
+    height: 3em;
+    margin: auto;
+  }
+
+  &--heart {
+    z-index: 1;
+    position: relative;
+    top: -52px;
+    left: calc(50% + 15px);
+    color: rgba(180, 5, 10, .9);
+    width: 30px;
+  }
+
+  &--shadow {
+    color: white;
+    position: relative;
+    top: -96px;
+    left: calc(50% + 14px);
+    width: 30px;
+    font-size: 20px;
+    filter: blur(1px);
+  }
+}
+
+.title-image {
+  text-align: center;
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    max-width: 17em;
+  }
+}
+
+.title-top {
+  width: 70%;
+  max-width: 17em;
+  margin: 2em auto 3em;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+
+  span {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(32, 37, 69, .9);
+    padding: .32em .7em;
+    line-height: 2em;
+    box-decoration-break: clone;
+  }
+}
+
+.scroll-ell {
+  text-align: center;
+  color: rgba(31, 36, 68, 0.9);
+
+  &--btn {
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0.5em 0 1em;
+    position: relative;
+    left: calc(50% - 0.7em);
+    transform: rotate(90deg);
+    border: 1px solid rgba(31, 36, 68, 0.9);
+    border-radius: 50%;
+
+    p {
+      margin: 0;
+      width: 1.5em;
+      font-size: 17px;
+      font-weight: 700;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+}
+
+.share-menu {
+  background: rgb(32, 37, 69);
+
+  &--title{
+    text-align: center;
+    padding: 2em;
+
+    span {
+      background: white;
+      padding: .4em .8em;
+      color: rgba(32, 37, 69, 0.95);
+      text-transform: uppercase;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700;
+    }
+  }
+
+  &--btns {
+    text-align: center;
+
+    i {
+      border: 1px solid white;
+      border-radius: 50%;
+      color: white;
+      padding: .4em;
+      width: 1.4em;
+      height: 1.4em;
+      line-height: 1.4em;
+      margin: 0 0.3em 5em;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  &--copyright {
+    text-align: center;
+    color: white;
+    font-size: .6em;
+    padding: 2em;
+  }
+}
