@@ -1,6 +1,12 @@
-# NewTask
+# Trump News
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
+
+## Setup & Run
+
+npm install && npm start
+
+# If you would like to use Angular CLI:
 
 ## Development server
 
